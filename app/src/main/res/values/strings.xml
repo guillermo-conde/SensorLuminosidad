@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">SensorLuminosidad</string>
+
+    <string name="descripcion">APLICACIÓN PARA MEDIR LA LUMINOSIDAD</string>
+    <string name="bienvenida">BIENVENID@</string>
+    <string name="btnIniciar">INICIAR</string>
+
+    <string name="instrucciones">Apunta en una dirección para medir la luminosidad del ambiente</string>
+    <string name="etiquetaTitulo">Luminosidad</string>
+    <string name="etiquetaPorcentaje">Porcentaje %</string>
+    <string name="valor">0</string>
+    <string name="btnSalir">SALIR</string>
 </resources>
