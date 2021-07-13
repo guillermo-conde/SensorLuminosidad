@@ -52,10 +52,9 @@ public class MainActivity2 extends AppCompatActivity {
                 //Función que detecta cada cambio.
                 @Override
                 public void onSensorChanged(SensorEvent event) {
-                    String lectura = String.valueOf(event.values[0]);
-                    valor = Float.parseFloat(lectura);
+                    valor = event.values[0];
                     //Se muestra como decimal mas no como porcentaje.
-                    mostrar.setText(String.valueOf(valor));
+                    mostrar.setText(String.format("%.2f",valor));
                 }
                 //Función para calibrar los valores del sensor (No usada en esta práctica, pero necesaria para el funcionamiento).
                 @Override
